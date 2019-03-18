@@ -8,8 +8,8 @@ function Symbol(props) {
                 style={{
                     stroke: props.color || 'white',
                     fill: 'transparent',
-                    strokeWidth: 5,
-                    strokeLinecap: 'square',
+                    strokeWidth: 4,
+                    strokeLinecap: 'round',
                 }} 
                 d={`${props.symbol === 'X' ?
                 'M 5,5 L 35,35 M 35,5 L 5,35' :
@@ -24,6 +24,10 @@ function Symbol(props) {
 Symbol.propTypes = {
     symbol: PropTypes.string.isRequired,
     color: PropTypes.string,
+    top: PropTypes.bool.isRequired,
+    bottom: PropTypes.bool.isRequired,
+    leftEdge: PropTypes.bool.isRequired,
+    rightEdge: PropTypes.bool.isRequired,
 }
 
 export default Symbol;
