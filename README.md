@@ -7,4 +7,4 @@ Then you'll need to install the dependencies running `npm install` on the projec
 And finally to actually run the project you should run `npm start`.
 
 
-**Note: When you start the app you will be asked for the number of columns and rows you want the board to have. You will need to fix the text input asking for the number of rows and columns with a numeric value greater or equal than 3, if not you would be lock on the modal an unable to create the board**
+**Note: When you start the app you will be asked for the number of columns and rows you want the board to have. You will need to fill the text input asking for the number of rows and columns with a numeric value greater or equal than 3, if not you would be lock on the modal an unable to create the board**
